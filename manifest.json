@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Search Extension",
+  "version": "1.0",
+  "description": "Easily switch between open tabs by typing 'ts' followed by your search term in the omnibox. Example: ts Google. Hit Enter to switch to the matching tab.",
+  "permissions": ["tabs"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "omnibox": { "keyword": "ts" },
+  "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+  }
+}
