@@ -1,4 +1,4 @@
-# Tab Search Chrome Extension
+# Tab Searcher Chrome Extension
 
 ![Tab Search Extension](icon.png) <!-- Update with your extension icon if available -->
 
